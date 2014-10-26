@@ -18,12 +18,10 @@
       echo $product['name'] ; 
        if (array_key_exists('options', $product)) {
          echo '<hr>';
-                  foreach ($product['options'] as $key => $value) 
+        foreach ($product['options'] as $key => $value) 
         {
         echo  '<strong>' . $key . '</strong> : '. $value . '<br/>';  
          }  
-
-
        }
       
       ?>
